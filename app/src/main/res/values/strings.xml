@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">楠楠词典</string>
+    <string name="title_search">搜索</string>
+    <string name="title_book">单词本</string>
+    <string name="title_setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
