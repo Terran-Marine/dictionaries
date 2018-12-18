@@ -1,13 +1,13 @@
 package personal.gj.myapplication.ui
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.view.ViewPager
 import kotlinx.android.synthetic.main.activity_main.*
 import personal.gj.myapplication.R
 import personal.gj.myapplication.adapter.MainViewPagerAdapter
+import personal.gj.myapplication.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     var fragments = arrayListOf(SearchFragment(), WordBookFragment(), SettingFragment())
 
